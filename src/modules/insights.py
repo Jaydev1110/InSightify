@@ -9,8 +9,17 @@ class InsightExtractor:
     def __init__(self):
         """
         Initializes the InsightExtractor with RAKE.
+        Ensures necessary NLTK data (stopwords, punkt) is available.
         """
-        # specialized stopwords/punctuations can be configured here if needed
+        import nltk
+        
+        # Check and download required NLTK resources
+        for resource in ['stopwords', 'punkt']:
+            try:
+                nltk.data.find(f'corpora/{resource}' if resource == 'stopwords' else f'tokenizers/{resource}')
+            except LookupError:
+                nltk.download(resource, quiet=True)
+                
         self.r = Rake()
 
     def extract_keywords(self, text: str, top_n: int = 10) -> list[str]:

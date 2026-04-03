@@ -19,7 +19,7 @@
 ![Sentiment](SentimentAnalysis.png)
 
 ### ☁️ Word Cloud
-![WordCloud](wordcloud.png)
+![WordCloud](WordCloud.png)
 
 ## 🛠️ Technology Stack
 

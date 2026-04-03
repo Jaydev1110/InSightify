@@ -13,6 +13,14 @@
 *   **📥 PDF Export**: Download a professional, fully formatted report containing all insights.
 *   **⚡ Fast & Private**: Processed locally/server-side without external API dependencies (Phase 1).
 
+## 📸 Screenshots
+
+### 📊 Sentiment Analysis
+![Sentiment](SentimentAnalysis.png)
+
+### ☁️ Word Cloud
+![WordCloud](wordcloud.png)
+
 ## 🛠️ Technology Stack
 
 *   **Language**: Python 3.9+

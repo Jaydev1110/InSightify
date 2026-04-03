@@ -1,6 +1,8 @@
 # InSightify: Smart Report Summarizer & Visualizer 📊
 
 **InSightify** is an AI-powered web application designed to transform long, dense documents into concise summaries and visual insights. By leveraging state-of-the-art NLP models, InSightify helps users quickly grasp the essence of reports, papers, and articles through generated summaries, sentiment analysis, and interactive visualizations.
+## 🚀 Live Demo
+👉 https://insightify11.streamlit.app/
 
 ## 🚀 Key Features
 
